@@ -13,13 +13,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="introduction" />
+            android:text="@string/introduction" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@color/colorPrimaryDark" />
 
+        <View style="@style/divider" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -29,77 +26,322 @@
                 android:id="@+id/question1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. First question" />
+                android:text="@string/question" />
+
 
             <CheckBox
-                android:id="@+id/checkBox1A"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/question1" />
 
-            <TextView
-                android:id="@+id/answer1A"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/checkBox1A"
-                android:layout_below="@id/question1"
-                android:layout_toRightOf="@id/checkBox1A"
-                android:text="answer1A" />
-
-            <CheckBox
-                android:id="@+id/checkBox1B"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/checkBox1A" />
-
-            <TextView
-                android:id="@+id/answer1B"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/checkBox1B"
-                android:layout_below="@id/question1"
-                android:layout_toRightOf="@id/checkBox1B"
-                android:text="answer1B" />
-
-            <CheckBox
-                android:id="@+id/checkBox1C"
+                android:id="@+id/checkBox1a"
+                style="@style/check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/question1"
-                android:layout_toEndOf="@id/answer1A" />
-
-            <TextView
-                android:id="@+id/answer1C"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/checkBox1C"
-                android:layout_below="@id/question1"
-                android:layout_toEndOf="@id/checkBox1C"
-                android:text="answer1C" />
+                android:text="@string/answer" />
 
             <CheckBox
-                android:id="@+id/checkBox1D"
+                android:id="@+id/checkBox1b"
+                style="@style/check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignEnd="@id/checkBox1C"
-                android:layout_below="@id/checkBox1A" />
-
-            <TextView
-                android:id="@+id/answer1D"
+                android:layout_below="@id/question1"
+                android:layout_toEndOf="@id/checkBox1a"
+                android:text="@string/answer" />
+            <CheckBox
+                android:id="@+id/checkBox1c"
+                style="@style/check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/checkBox1B"
-                android:layout_below="@id/checkBox1C"
-                android:layout_toEndOf="@id/checkBox1D"
-                android:text="answer1D" />
+                android:layout_below="@id/checkBox1a"
+                android:text="@string/answer" />
 
+            <CheckBox
+                android:id="@+id/checkBox1d"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox1b"
+                android:layout_toEndOf="@id/checkBox1c"
+                android:text="@string/answer" />
 
         </RelativeLayout>
 
-        <View
+
+        <View style="@style/divider" />
+        <!-- there must be a better way than copy/pasting huge stacks of these exact same things... -->
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@color/colorPrimaryDark" />
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question" />
+
+            <CheckBox
+
+                android:id="@+id/checkBox2a"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question2"
+                android:text="@string/answer" />
+
+            <CheckBox
+                android:id="@+id/checkBox2b"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question2"
+                android:layout_toEndOf="@id/checkBox2a"
+                android:text="@string/answer" />
+            <CheckBox
+                android:id="@+id/checkBox2c"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox2a"
+                android:text="@string/answer" />
+
+            <CheckBox
+                android:id="@+id/checkBox2d"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox2b"
+                android:layout_toEndOf="@id/checkBox2c"
+                android:text="@string/answer" />
+
+        </RelativeLayout>
+
+
+        <View style="@style/divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/question3">
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View style="@style/divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/question4">
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View style="@style/divider" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/question5">
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+                <RadioButton
+
+                    style="@style/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer" />
+
+
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View style="@style/divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/question6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question" />
+
+            <CheckBox
+
+                android:id="@+id/checkBox6a"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question6"
+                android:text="@string/answer" />
+
+            <CheckBox
+                android:id="@+id/checkBox6b"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question6"
+                android:layout_toEndOf="@id/checkBox6a"
+                android:text="@string/answer" />
+
+            <CheckBox
+                android:id="@+id/checkBox6c"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox6a"
+                android:text="@string/answer" />
+
+            <CheckBox
+                android:id="@+id/checkBox6d"
+                style="@style/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox6b"
+                android:layout_toEndOf="@id/checkBox6c"
+                android:text="@string/answer" />
+
+        </RelativeLayout>
+
+        <View style="@style/divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question" />
+
+            <EditText
+                android:id="@+id/etAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="one word, lower case" />
+
+
+        </LinearLayout>
+
+
+        <View style="@style/divider" />
+
 
         <!-- Let's not forget the Submit button at the end-->
         <Button
