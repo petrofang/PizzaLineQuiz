@@ -5,4 +5,11 @@
     <string name="answer">(answer)</string>
     <string name="question">(question)</string>
     <string name="introduction">(introduction)</string>
+    <string name="question1">Which of the following pizzas get red sauce?</string>
+    <string name="question6">Which of the following types of cheese are on a four-cheese pizza?</string>
+    <string name="question2">Which of the following types of cheese are on a sausage pizza?</string>
+    <string name="question3">Which pizza gets red sauce?</string>
+    <string name="question4">Which topping is not on a chicken pizza?</string>
+    <string name="question5">Which of the following ingredients is not on a marinara pizza?</string>
+    <string name="question7">What type of pizza gets sopressata?</string>
 </resources>

@@ -26,7 +26,7 @@
                 android:id="@+id/question1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question" />
+                android:text="@string/question1" />
 
 
             <CheckBox
@@ -76,7 +76,7 @@
                 android:id="@+id/question2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question" />
+                android:text="@string/question2" />
 
             <CheckBox
 
@@ -126,7 +126,7 @@
                 android:id="@+id/question3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question" />
+                android:text="@string/question3" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -177,7 +177,7 @@
                 android:id="@+id/question4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question" />
+                android:text="@string/question4" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -229,7 +229,7 @@
                 android:id="@+id/question5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question" />
+                android:text="@string/question5" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -279,7 +279,7 @@
                 android:id="@+id/question6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question" />
+                android:text="@string/question6" />
 
             <CheckBox
 
@@ -328,10 +328,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question" />
+                android:text="@string/question7" />
 
             <EditText
-                android:id="@+id/etAnswer"
+                android:id="@+id/etAnswer7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="one word, lower case" />
