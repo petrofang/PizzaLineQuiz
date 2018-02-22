@@ -3,13 +3,48 @@
 
     <!-- TODO: (1) Copy all the questions and answers from paper notes -->
     <string name="answer">(answer)</string>
-    <string name="question">(question)</string>
     <string name="introduction">(introduction)</string>
-    <string name="question1">Which of the following pizzas get red sauce?</string>
-    <string name="question6">Which of the following types of cheese are on a four-cheese pizza?</string>
-    <string name="question2">Which of the following types of cheese are on a sausage pizza?</string>
+
+    <string name="question1">Which of these pizzas get red sauce?</string>
+    <string name="answer1a">pepperoni</string>
+    <string name="answer1b">chicken</string>
+    <string name="answer1c">sausage</string>
+    <string name="answer1d">meatball</string>
+
+    <string name="question2">Which of the these types of cheese are on a sausage pizza?</string>
+    <string name="answer2a">fresh mozz</string>
+    <string name="answer2b">smoked mozz</string>
+    <string name="answer2c">ricotta</string>
+    <string name="answer2d">romano</string>
+
     <string name="question3">Which pizza gets red sauce?</string>
+    <string name="answer3a">sausage</string>
+    <string name="answer3b">BBQ</string>
+    <string name="answer3c">chicken</string>
+    <string name="answer3d">mama lil\'s</string>
+
     <string name="question4">Which topping is not on a chicken pizza?</string>
+    <string name="answer4a">red onion</string>
+    <string name="answer4b">spinach</string>
+    <string name="answer4c">fontina</string>
+    <string name="answer4d">pesto</string>
+
     <string name="question5">Which of the following ingredients is not on a marinara pizza?</string>
+    <string name="answer5a">basil</string>
+    <string name="answer5b">oregano</string>
+    <string name="answer5c">romano</string>
+    <string name="answer5d">garlic</string>
+
+    <string name="question6">Which of the following types of cheese are on a four-cheese pizza?</string>
+    <string name="answer6a">ricotta</string>
+    <string name="answer6b">mozzarella</string>
+    <string name="answer6c">fontina</string>
+    <string name="answer6d">romano</string>
+
     <string name="question7">What type of pizza gets sopressata?</string>
+    <string name="hint1">(one word, lowercase)</string>
+    <string name="answer7">date</string> <!-- datilera -->
+
+    <string name="submit">Submit</string>
+
 </resources>

@@ -30,38 +30,29 @@
 
 
             <CheckBox
-
                 android:id="@+id/checkBox1a"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/question1"
-                android:text="@string/answer" />
+                android:text="@string/answer1a" />
 
             <CheckBox
                 android:id="@+id/checkBox1b"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/question1"
                 android:layout_toEndOf="@id/checkBox1a"
-                android:text="@string/answer" />
+                android:text="@string/answer1b" />
             <CheckBox
                 android:id="@+id/checkBox1c"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/checkBox1a"
-                android:text="@string/answer" />
+                android:text="@string/answer1c" />
 
             <CheckBox
                 android:id="@+id/checkBox1d"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/checkBox1b"
                 android:layout_toEndOf="@id/checkBox1c"
-                android:text="@string/answer" />
+                android:text="@string/answer1d" />
 
         </RelativeLayout>
 
@@ -79,38 +70,27 @@
                 android:text="@string/question2" />
 
             <CheckBox
-
                 android:id="@+id/checkBox2a"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/question2"
-                android:text="@string/answer" />
-
+                android:text="@string/answer2a" />
             <CheckBox
                 android:id="@+id/checkBox2b"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/question2"
                 android:layout_toEndOf="@id/checkBox2a"
-                android:text="@string/answer" />
+                android:text="@string/answer2b" />
             <CheckBox
                 android:id="@+id/checkBox2c"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/checkBox2a"
-                android:text="@string/answer" />
-
+                android:text="@string/answer2c" />
             <CheckBox
                 android:id="@+id/checkBox2d"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/checkBox2b"
                 android:layout_toEndOf="@id/checkBox2c"
-                android:text="@string/answer" />
+                android:text="@string/answer2d" />
 
         </RelativeLayout>
 
@@ -131,37 +111,23 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_below="@id/question3">
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer3a" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer3b" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer3c" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
-
+                    android:text="@string/answer3d" />
 
             </RadioGroup>
         </RelativeLayout>
@@ -172,7 +138,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
             <TextView
                 android:id="@+id/question4"
                 android:layout_width="wrap_content"
@@ -182,37 +147,23 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_below="@id/question4">
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer4a" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer4b" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer4c" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
-
+                    android:text="@string/answer4d" />
 
             </RadioGroup>
         </RelativeLayout>
@@ -234,37 +185,23 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_below="@id/question5">
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer5a" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer5b" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
+                    android:text="@string/answer5c" />
 
                 <RadioButton
-
                     style="@style/check_box"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/answer" />
-
+                    android:text="@string/answer5d" />
 
             </RadioGroup>
         </RelativeLayout>
@@ -285,36 +222,28 @@
 
                 android:id="@+id/checkBox6a"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/question6"
-                android:text="@string/answer" />
+                android:text="@string/answer6a" />
 
             <CheckBox
                 android:id="@+id/checkBox6b"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/question6"
                 android:layout_toEndOf="@id/checkBox6a"
-                android:text="@string/answer" />
+                android:text="@string/answer6b" />
 
             <CheckBox
                 android:id="@+id/checkBox6c"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/checkBox6a"
-                android:text="@string/answer" />
+                android:text="@string/answer6c" />
 
             <CheckBox
                 android:id="@+id/checkBox6d"
                 style="@style/check_box"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_below="@id/checkBox6b"
                 android:layout_toEndOf="@id/checkBox6c"
-                android:text="@string/answer" />
+                android:text="@string/answer6d" />
 
         </RelativeLayout>
 
@@ -334,7 +263,7 @@
                 android:id="@+id/etAnswer7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="one word, lower case" />
+                android:hint="@string/hint1" />
 
 
         </LinearLayout>
@@ -347,7 +276,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="submit" />
+            android:text="@string/submit" />
 
     </LinearLayout>
 
