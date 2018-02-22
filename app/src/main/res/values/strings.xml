@@ -10,8 +10,8 @@
     <string name="answer1d">meatball</string>
 
     <string name="question2">Which of the these types of cheese are on a sausage pizza?</string>
-    <string name="answer2a">fresh mozz</string>
-    <string name="answer2b">smoked mozz</string>
+    <string name="answer2a">fresh mozzarella</string>
+    <string name="answer2b">smoked mozzarella</string>
     <string name="answer2c">ricotta</string>
     <string name="answer2d">romano</string>
 

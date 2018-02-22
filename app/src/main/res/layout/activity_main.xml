@@ -11,8 +11,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/question"
             android:text="@string/introduction" />
 
 
@@ -24,8 +23,7 @@
 
             <TextView
                 android:id="@+id/question1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/question"
                 android:text="@string/question1" />
 
 
@@ -65,8 +63,7 @@
 
             <TextView
                 android:id="@+id/question2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/question"
                 android:text="@string/question2" />
 
             <CheckBox
@@ -104,8 +101,7 @@
 
             <TextView
                 android:id="@+id/question3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/question"
                 android:text="@string/question3" />
 
             <RadioGroup
@@ -141,8 +137,7 @@
 
             <TextView
                 android:id="@+id/question4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/question"
                 android:text="@string/question4" />
 
             <RadioGroup
@@ -180,8 +175,7 @@
 
             <TextView
                 android:id="@+id/question5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/question"
                 android:text="@string/question5" />
 
             <RadioGroup
@@ -217,8 +211,7 @@
 
             <TextView
                 android:id="@+id/question6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/question"
                 android:text="@string/question6" />
 
             <CheckBox
@@ -258,8 +251,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/question"
                 android:text="@string/question7" />
 
             <EditText
@@ -268,20 +260,22 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/hint1" />
 
-
         </LinearLayout>
-
 
         <View style="@style/divider" />
 
-
-        <!-- Let's not forget the Submit button at the end-->
-        <Button
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="submitScore"
-            android:text="@string/submit" />
+            android:layout_height="wrap_content">
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="submitScore"
+                android:text="@string/submit" />
+
+        </LinearLayout>
     </LinearLayout>
+
 
 </ScrollView>
