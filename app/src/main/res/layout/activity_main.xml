@@ -126,6 +126,7 @@
                     android:text="@string/answer3c" />
 
                 <RadioButton
+                    android:id="@+id/radio3"
                     style="@style/check_box"
                     android:text="@string/answer3d" />
 
@@ -150,6 +151,7 @@
                 android:layout_below="@id/question4">
 
                 <RadioButton
+                    android:id="@+id/radio4"
                     style="@style/check_box"
                     android:text="@string/answer4a" />
 
@@ -196,6 +198,7 @@
                     android:text="@string/answer5b" />
 
                 <RadioButton
+                    android:id="@+id/radio5"
                     style="@style/check_box"
                     android:text="@string/answer5c" />
 
@@ -276,6 +279,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="submitScore"
             android:text="@string/submit" />
 
     </LinearLayout>
